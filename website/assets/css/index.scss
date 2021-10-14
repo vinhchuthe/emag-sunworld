@@ -1,0 +1,168 @@
+@import './fonts/fontface';
+
+.adm_emag {
+    position: relative;
+    padding-top: 44px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.5;
+
+    .img-fluid {
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .swiper {
+        position: relative;
+
+        .swiper-slide {
+            position: relative;
+
+            .slide-content {
+                position: relative;
+                width: 100%;
+                height: calc(100vh - 44px);
+
+                img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 2;
+
+                    &:first-child {
+                        position: relative;
+                        z-index: 1;
+                    }
+                }
+
+                .text-wrapper {
+                    position: absolute;
+                    z-index: 2;
+
+                    h3 {
+                        font-family: 'iCielEditorialNew';
+                        font-style: normal;
+                        font-weight: 300;
+                        color: #000000;
+                        text-transform: uppercase;
+                        font-size: 45px;
+                        margin-bottom: 40px;
+                    }
+
+                    p {
+                        color: #000000;
+                        font-family: 'URW-DIN';
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: normal;
+
+                        @media (max-width: 1600px) {
+                            font-size: 14px;
+                        }
+
+                        @media (max-width: 1366px) {
+                            font-size: 12px;
+                        }
+                    }
+
+                    &.cover-text1 {
+                        bottom: 5%;
+                        left: 30%;
+                        width: 26%;
+
+                        p {
+                            font-size: 18px;
+                        }
+                    }
+
+                    &.cover-text2 {
+                        bottom: 5%;
+                        right: 10%;
+                        width: 21%;
+
+                        p {
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                        }
+                    }
+
+                    &.slide1-text {
+                        top: 10%;
+                        right: 8%;
+                        width: 28%;
+
+                        p {
+                            margin-bottom: 30px;
+                        }
+                    }
+
+                    &.slide2-text {
+                        top: 10%;
+                        left: 5%;
+                        width: 30%;
+                    }
+
+                    &.slide3-text {
+                        top: 55%;
+                        right: 6%;
+                        width: 25%;
+                    }
+
+                    &.slide4-text {
+                        bottom: 25%;
+                        left: 6%;
+                        width: 30%;
+                    }
+
+                    &.slide6-text {
+                        top: 15%;
+                        right: 6%;
+                        width: 30%;
+
+                        p {
+                            margin-bottom: 30px;
+                        }
+                    }
+
+                    &.slide7-text {
+                        bottom: 20%;
+                        right: 6%;
+                        width: 25%;
+                    }
+
+                    &.slide8-text {
+                        bottom: 25%;
+                        left: 6%;
+                        width: 30%;
+
+                        p {
+                            margin-bottom: 30px;
+                        }
+                    }
+
+                    &.slide9-text {
+                        top: 10%;
+                        left: 4%;
+                        width: 30%;
+                    }
+
+                    &.slide10-text {
+                        top: 15%;
+                        right: 6%;
+                        width: 30%;
+                    }
+
+                    &.slide11-text {
+                        top: 15%;
+                        left: 6%;
+                        width: 30%;
+                    }
+                }
+            }
+        }
+    }
+}
