@@ -8,6 +8,7 @@
     <title>Emag Sun World</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/swiper-bundle.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
     <link rel="stylesheet" href="./assets/css/index.css">
 </head>
 
@@ -18,11 +19,11 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
-                <!-- <div class="swiper-slide">
+                <div class="swiper-slide" id="slider-0">
                     <div class="slide-content">
                         <img class="img-fluid" src="./assets/images/cover.jpg" alt="">
-                        <img class="img-fluid" src="./assets/images/cover-title.png" alt="">
-                        <img class="img-fluid" src="./assets/images/cover-sub-title.png" alt="">
+                        <img class="img-fluid item1 hide-opacity" src="./assets/images/cover-title.png" alt="">
+                        <img class="img-fluid item2 hide-opacity" src="./assets/images/cover-sub-title.png" alt="">
                         <div class="slide-text">
                             <div class="text-wrapper cover-text1">
                                 <p>
@@ -44,10 +45,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide" id="slider-1">
                     <div class="slide-content">
                         <img class="img-fluid" src="./assets/images/slide1-cover.jpg" alt="">
-                        <img class="img-fluid" src="./assets/images/slide1-title.png" alt="">
+                        <img class="img-fluid item hide-opacity" src="./assets/images/slide1-title.png" alt="">
                         <div class="slide-text">
                             <div class="text-wrapper slide1-text">
                                 <p>
@@ -65,7 +66,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide" id="slider-2">
                     <div class="slide-content">
                         <img class="img-fluid" src="./assets/images/slide2-cover.jpg" alt="">
                         <div class="slide-text">
@@ -84,10 +85,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide" id="slider-3">
                     <div class="slide-content">
                         <img class="img-fluid" src="./assets/images/slide3-cover.jpg" alt="">
-                        <img class="img-fluid" src="./assets/images/slide3-title.png" alt="">
+                        <img class="img-fluid item hide-opacity" src="./assets/images/slide3-title.png" alt="">
                         <div class="slide-text">
                             <div class="text-wrapper slide3-text">
                                 <p>
@@ -100,7 +101,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide" id="slider-4">
                     <div class="slide-content">
                         <img class="img-fluid" src="./assets/images/slide4-cover.jpg" alt="">
                         <div class="slide-text">
@@ -115,15 +116,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide" id="slider-5">
                     <div class="slide-content">
                         <img class="img-fluid" src="./assets/images/slide5-cover.jpg" alt="">
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide" id="slider-6">
                     <div class="slide-content">
                         <img class="img-fluid" src="./assets/images/slide6-cover.jpg" alt="">
-                        <img class="img-fluid" src="./assets/images/slide6-title.png" alt="">
+                        <img class="img-fluid item hide-opacity" src="./assets/images/slide6-title.png" alt="">
                         <div class="slide-text">
                             <div class="text-wrapper slide6-text">
                                 <p>
@@ -140,7 +141,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide" id="slider-7">
                     <div class="slide-content">
                         <img class="img-fluid" src="./assets/images/slide7-cover.jpg" alt="">
                         <div class="slide-text">
@@ -154,7 +155,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
+                <div class="swiper-slide" id="slider-8">
                     <div class="slide-content">
                         <img class="img-fluid" src="./assets/images/slide8-cover.jpg" alt="">
                         <div class="slide-text">
@@ -171,13 +172,13 @@
                             </div>
                         </div>
                     </div>
-                </div> -->
-                <!-- <div class="swiper-slide">
+                </div>
+                <div class="swiper-slide" id="slider-9">
                     <div class="slide-content">
                         <img class="img-fluid" src="./assets/images/slide9-cover.jpg" alt="">
                         <div class="slide-text">
                             <div class="text-wrapper slide9-text">
-                                <h3>
+                                <h3 class="item hide-opacity">
                                     Hạ cánh ở vùng vịnh xanh trong, đẹp nhất
                                     nhì miền Bắc
                                 </h3>
@@ -194,11 +195,11 @@
                             </div>
                         </div>
                     </div>
-                </div> -->
-                <!-- <div class="swiper-slide">
+                </div>
+                <div class="swiper-slide" id="slider-10">
                     <div class="slide-content">
                         <img class="img-fluid" src="./assets/images/slide10-cover.jpg" alt="">
-                        <img class="img-fluid" src="./assets/images/slide10-title.png" alt="">
+                        <img class="img-fluid item hide-opacity" src="./assets/images/slide10-title.png" alt="">
                         <div class="slide-text">
                             <div class="text-wrapper slide10-text">
                                 <p>
@@ -212,8 +213,8 @@
                             </div>
                         </div>
                     </div>
-                </div> -->
-                <!-- <div class="swiper-slide">
+                </div>
+                <div class="swiper-slide" id="slider-11">
                     <div class="slide-content">
                         <img class="img-fluid" src="./assets/images/slide11-cover.jpg" alt="">
                         <div class="slide-text">
@@ -230,10 +231,221 @@
                             </div>
                         </div>
                     </div>
-                </div> -->
-                <div class="swiper-slide">
+                </div>
+                <div class="swiper-slide" id="slider-12">
                     <div class="slide-content">
                         <img class="img-fluid" src="./assets/images/slide12-cover.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide" id="slider-13">
+                    <div class="slide-content">
+                        <img class="img-fluid" src="./assets/images/slide13-cover.jpg" alt="">
+                        <img class="img-fluid item hide-opacity" src="./assets/images/slide13-title.png" alt="">
+                        <div class="slide-text">
+                            <div class="text-wrapper slide13-text">
+                                <p>
+                                    Có lẽ không chỉ các du khách Việt Nam mà nhiều du khách quốc tế cũng rất nhớ Đà
+                                    Nẵng.
+                                </p>
+                                <p>
+                                    Một sớm mai trong lành trên bãi biển Mỹ Khê. Khoảnh khắc cầu Quay chuyển mình giữa
+                                    lung linh sông Hàn và dòng người hối hả. Một đàn voọc nhẩn nha ăn ngọn lá non trên
+                                    bán đảo Sơn Trà xanh rì. Hay chỉ là những nụ cười dễ mến mà ta có thể bắt gặp ở bất
+                                    cứ ngả đường nào trên thành phố này.
+                                </p>
+                                <p>
+                                    Và bạn có còn nhớ đó là xứ sở của những niềm vui trải dài như vô tận.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="slider-14">
+                    <div class="slide-content">
+                        <img class="img-fluid" src="./assets/images/slide14-cover.jpg" alt="">
+                        <img class="img-fluid item hide-opacity" src="./assets/images/slide14-title.png" alt="">
+                        <div class="slide-text">
+                            <div class="text-wrapper slide14-text">
+                                <p>
+                                    Từ Công viên Châu Á – Asia Park giữa trung tâm thành phố với các trò chơi thuộc top
+                                    đầu thế giới và quảng trường Sun Wheel rộng lớn; Sun World Ba Na Hills với cây Cầu
+                                    Vàng nổi tiếng thế giới, bốn mùa lễ hội tưng bừng, Beer Plaza rộn ràng và những thảm
+                                    hoa đẹp hiếm có, cho đến những dãy chợ đêm Sơn Trà lấp lánh ánh đèn, thưởng thức đủ
+                                    các món đặc sản hấp dẫn, hay đi xa hơn chút nữa, phố cổ Hội An đón bạn với những
+                                    trải nghiệm vô cùng thú vị.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="slider-15">
+                    <div class="slide-content">
+                        <img class="img-fluid" src="./assets/images/slide15-cover.jpg" alt="">
+                        <img class="img-fluid item hide-opacity" src="./assets/images/slide15-title.png" alt="">
+                        <div class="slide-text">
+                            <div class="text-wrapper slide15-text">
+                                <p>
+                                    Từ Công viên Châu Á – Asia Park giữa trung tâm thành phố với các trò chơi thuộc top
+                                    đầu thế giới và quảng trường Sun Wheel rộng lớn; Sun World Ba Na Hills với cây Cầu
+                                    Vàng nổi tiếng thế giới, bốn mùa lễ hội tưng bừng, Beer Plaza rộn ràng và những thảm
+                                    hoa đẹp hiếm có, cho đến những dãy chợ đêm Sơn Trà lấp lánh ánh đèn, thưởng thức đủ
+                                    các món đặc sản hấp dẫn, hay đi xa hơn chút nữa, phố cổ Hội An đón bạn với những
+                                    trải nghiệm vô cùng thú vị.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="slider-16">
+                    <div class="slide-content">
+                        <img class="img-fluid" src="./assets/images/slide16-cover.jpg" alt="">
+                        <img class="img-fluid item hide-opacity" src="./assets/images/slide16-title.png" alt="">
+                        <div class="slide-text">
+                            <div class="text-wrapper slide16-text">
+                                <p>
+                                    Đà Nẵng cũng nhớ bạn theo một cách rất khác. Nỗi nhớ được biến thành những trải
+                                    nghiệm mới đầy hấp dẫn đón chờ khách du lịch. 12.000 gốc hồng đủ các loài biến Bà Nà
+                                    Hills thành một xứ sở hương thơm tựa như Bulgari thu nhỏ cùng rất nhiều loài hoa
+                                    khác, những bức tượng đồng đặc biệt đã được gia tộc điêu khắc lừng danh Frilli từ
+                                    nước Ý xa xôi lắp đặt xong ở Thác Mặt trời, nhiều trải nghiệm mới hứa hẹn sẽ đưa du
+                                    khách đi từ bất ngờ này tới ngạc nhiên khác, ngay tại khu du lịch vốn đã quá quen
+                                    thuộc của Đà Nẵng. Rất nhiều các hạng mục đang được làm mới ở Công viên châu Á- Asia
+                                    Park hay trong những khu nghỉ dưỡng sang trọng vốn đã làm nên tên tuổi của Đà Nẵng.
+                                </p>
+                                <p>
+                                    Còn chúng ta đã sẵn sàng để lên đường ngay khi hết dịch,
+                                    phải không?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="slider-17">
+                    <div class="slide-content">
+                        <img class="img-fluid" src="./assets/images/slide17-cover.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide" id="slider-18">
+                    <div class="slide-content">
+                        <img class="img-fluid" src="./assets/images/slide18-cover.jpg" alt="">
+                        <img class="img-fluid item hide-opacity" src="./assets/images/slide18-title.png" alt="">
+                        <div class="slide-text">
+                            <div class="text-wrapper slide18-text">
+                                <p>
+                                    Giữa cái nắng chói chang của phố thị, có phải bạn đang mơ đến biển đảo Phú Quốc xanh
+                                    rì. Giữa làn nước trong veo màu ngọc bích của Bãi Trào, bạn ngụp lặn xuống đại dương
+                                    ngắm rặng san hô đẹp lịm tim như những đóa hoa biển, xung quanh đám cá bảy màu tung
+                                    tăng bơi lội hồn nhiên. Vút xe máy nước trên mặt biển lấp lánh cho tung lên bọt sóng
+                                    trắng xóa vô cùng sảng khoái, rồi trở về bờ nằm dài dưới bóng dừa mát, cùng nhảy một
+                                    vũ điệu nóng bỏng, tưng bừng trên bãi cỏ xanh với các vũ công…
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="slider-19">
+                    <div class="slide-content">
+                        <img class="img-fluid" src="./assets/images/slide19-cover.jpg" alt="">
+                        <img class="img-fluid item hide-opacity" src="./assets/images/slide19-title.png" alt="">
+                        <div class="slide-text">
+                            <div class="text-wrapper slide19-text">
+                                <p>
+                                    Là một trong những địa điểm mới mẻ nhất tại Phú Quốc thời gian gần đây, “thị trấn
+                                    Amalfi” Sun Premier Village Primavera, nơi có những góc phố, căn nhà rực rỡ sắc màu
+                                    Địa Trung Hải trải dài hướng ra phía đại dương với tháp chuông “bản sao” của quảng
+                                    trường San Marco, Venice khiến ai cũng “mê đắm”. Đó là nơi khiến bạn chụp ảnh “cháy
+                                    máy” mỗi lần đến và có đủ ảnh để sống ảo cho cả năm không hết.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="slider-20">
+                    <div class="slide-content">
+                        <img class="img-fluid" src="./assets/images/slide20-cover.jpg" alt="">
+                        <div class="slide-text">
+                            <div class="text-wrapper slide20-text">
+                                <p>
+                                    Hay bạn có nhớ sự sang chảnh của khu nghỉ dưỡng JW Marriott Phu Quoc Emerald Bay -
+                                    “ngôi trường đại học trong trí tưởng tượng tuyệt vời của Bill Bensley, sự trẻ trung
+                                    sôi nổi của khách sạn mang biểu tượng “thùng nước mắm” Premier Residences Phu Quoc
+                                    Emerald Bay, những villa trắng kiêu kỳ giữa rừng xanh, bên biển biếc ở Premier
+                                    Village Phu Quoc Resort…
+                                </p>
+                                <p>
+                                    Hễ cứ nhắc đến Phú Quốc, là lại khiến lòng ta muốn chìm vào thư thái, trong những
+                                    khu nghỉ dưỡng đẹp lạ lùng ấy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="slider-21">
+                    <div class="slide-content">
+                        <img class="img-fluid" src="./assets/images/slide21-cover.jpg" alt="">
+                        <img class="img-fluid item hide-opacity" src="./assets/images/slide21-title.png" alt="">
+                        <div class="slide-text">
+                            <div class="text-wrapper slide21-text">
+                                <p>
+                                    Ngày trở lại gần nhất, chắc chắn chúng mình sẽ phải “vui hết nấc” cho thỏa nỗi nhớ
+                                    mong này. Đến Sun World Hon Thom Nature Park đi cáp treo Hòn Thơm “bay” giữa biển
+                                    ngọc rừng xanh để ngắm trọn hòn đảo từ trên cao tít. Chơi tất cả những trò chơi
+                                    tuyệt đỉnh ở công viên nước Aquatopia Park. Đi canô vi vút ra các hòn, câu mực đêm
+                                    giữa mênh mông sóng nước. Đi chơi vườn tiêu, xưởng ngọc trai và “ăn cả Phú Quốc” cho
+                                    đã đời bao tháng ngày xa cách.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide" id="slider-22">
+                    <div class="slide-content">
+                        <img class="img-fluid" src="./assets/images/slide22-cover.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide" id="slider-23">
+                    <div class="slide-content">
+                        <img class="img-fluid" src="./assets/images/slide23-cover.jpg" alt="">
+                        <div class="slide-text">
+                            <div class="text-wrapper slide23-text">
+                                <h3>Sau này hết dịch,<br /> <span>cùng nhau đi hết Việt Nam</span>mình nhé!</h3>
+                                <p>
+                                    Càng nhìn, càng xem thì lại càng thêm nhớ, <br />
+                                    càng muốn “xách balô lên và đi” phải không?
+                                </p>
+                                <p>
+                                    Sa Pa, Hạ Long, Đà Nẵng, Phú Quốc…, tất cả đều đang <br /> ở đó chờ bạn với khung
+                                    cảnh và
+                                    những trải nghiệm <br /> không ngừng mới mẻ. Sẽ nhanh thôi, không còn là <br />
+                                    những nỗi nhớ,
+                                    không còn là du lịch qua ảnh hay <br /> những câu chữ nữa, mà sẽ được gặp lại nhau
+                                    thật <br />
+                                    chân thật trên đỉnh Fansipan, hoặc là giữa cầu Vàng, <br /> hay “bay” trên chiếc cáp
+                                    treo
+                                    giữa biển…
+
+                                </p>
+                                <p>
+                                    <span>
+                                        Hẹn bạn một ngày không xa, cùng nhau vi vu khắp <br /> Việt Nam nhé!
+                                    </span>
+                                </p>
+                                <div class="credit">
+                                    <p>
+                                        <span>Bài viết</span>
+                                        Nhật chung
+                                    </p>
+                                    <p>
+                                        <span>Interactive</span>
+                                        Spidey
+                                    </p>
+                                    <p>
+                                        <span>Thiết kế</span>
+                                        Trim
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -246,22 +458,7 @@
 
     <script src="./assets/js/jquery.min.js"></script>
     <script src="./assets/js/swiper-bundle.js"></script>
-    <script>
-        $.noConflict();
-        jQuery(document).ready(function ($) {
-            const swiper1 = new Swiper('#sun-slider', {
-                // Optional parameters
-                loop: false,
-                speed: 1000,
-
-                // Navigation arrows
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-            });
-        });
-    </script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
