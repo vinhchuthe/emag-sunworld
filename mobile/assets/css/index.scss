@@ -51,7 +51,7 @@
             }
 
             .arrow-icon {
-                width: 15%;
+                width: 11%;
                 margin: 0 auto;
                 display: block;
             }
@@ -165,6 +165,42 @@
             padding: 0 15px;
             margin-bottom: 20px;
             color: #000000;
+        }
+    }
+
+    .section5 {
+        position: relative;
+        margin-bottom: 30px;
+
+        p {
+            text-align: center;
+            font-size: 16px;
+            padding: 0 15px;
+            margin-bottom: 20px;
+            color: #000000;
+        }
+
+        .credit {
+            display: flex;
+            width: 90%;
+            justify-content: space-around;
+            margin: 0 auto;
+
+            p {
+                text-transform: uppercase;
+                flex: 0 0 33%;
+                max-width: 33%;
+                font-size: 13px;
+                padding: 0;
+
+                span {
+                    display: block;
+                    font-style: normal;
+                    font-weight: normal;
+                    color: #6A6662;
+                    font-size: 9px;
+                }
+            }
         }
     }
 }

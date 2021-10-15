@@ -1,21 +1,24 @@
 @font-face {
-  font-family: "URW-DIN";
+  font-family: 'URW-DIN';
   src: url("./fonts/URW-DIN.ttf");
   font-style: normal;
   font-weight: normal;
 }
+
 @font-face {
-  font-family: "URW-DIN";
+  font-family: 'URW-DIN';
   src: url("./fonts/URW-DIN-DEMI.otf");
   font-style: normal;
   font-weight: 500;
 }
+
 @font-face {
-  font-family: "iCielEditorialNew";
+  font-family: 'iCielEditorialNew';
   src: url("./fonts/iCielEditorialNew-Light.otf");
   font-style: normal;
   font-weight: 300;
 }
+
 .adm_emag {
   position: relative;
   padding-top: 44px;
@@ -25,24 +28,29 @@
   line-height: 1.4;
   background-color: #D9CDC0;
 }
+
 .adm_emag .img-fluid {
   max-width: 100%;
   width: 100%;
   height: auto;
 }
+
 .adm_emag .text-normal {
-  font-family: "URW-DIN";
+  font-family: 'URW-DIN';
   font-style: normal;
   font-weight: normal;
 }
+
 .adm_emag .text-bold {
-  font-family: "URW-DIN";
+  font-family: 'URW-DIN';
   font-style: normal;
   font-weight: 500;
 }
+
 .adm_emag .cover {
   position: relative;
 }
+
 .adm_emag .cover .section-bg {
   background-image: url("../image/cover-section-bg.png");
   background-size: 100% 100%;
@@ -52,105 +60,172 @@
   padding-top: 205px;
   padding-bottom: 30px;
 }
+
 .adm_emag .cover .section-bg img {
   margin-bottom: 20px;
 }
+
 .adm_emag .cover .section-bg p {
   font-size: 16px;
   padding: 0 15px;
   margin-bottom: 20px;
   color: #000000;
 }
+
 .adm_emag .cover .section-bg .arrow-icon {
-  width: 15%;
+  width: 11%;
   margin: 0 auto;
   display: block;
 }
+
 .adm_emag .section1 {
   position: relative;
   margin-bottom: 30px;
 }
+
 .adm_emag .section1 .section-title {
   margin-bottom: 30px;
 }
+
 .adm_emag .section1 .section-title.title1 {
   margin-top: -40px;
 }
+
 .adm_emag .section1 p {
   font-size: 16px;
   padding: 0 15px;
   margin-bottom: 20px;
   color: #000000;
 }
+
 .adm_emag .section1 .custom-img1 {
   position: relative;
   z-index: 1;
 }
+
 .adm_emag .section1 .custom-img2 {
   position: relative;
   margin-top: -40px;
 }
+
 .adm_emag .section2 {
   position: relative;
   margin-bottom: 30px;
 }
+
 .adm_emag .section2 .section-title {
   margin-bottom: 40px;
 }
+
 .adm_emag .section2 .section-title.title1 {
   margin-top: -50px;
 }
+
 .adm_emag .section2 p {
   font-size: 16px;
   padding: 0 15px;
   margin-bottom: 20px;
   color: #000000;
 }
+
 .adm_emag .section2 .custom-img1 {
   position: relative;
   z-index: 1;
 }
+
 .adm_emag .section2 .custom-img2 {
   position: relative;
   margin-top: -40px;
 }
+
 .adm_emag .section3 {
   position: relative;
   margin-bottom: 30px;
 }
+
 .adm_emag .section3 .section-title {
   margin-bottom: 40px;
 }
+
 .adm_emag .section3 .section-title.title1 {
   margin-top: -50px;
 }
+
 .adm_emag .section3 p {
   font-size: 16px;
   padding: 0 15px;
   margin-bottom: 20px;
   color: #000000;
 }
+
 .adm_emag .section3 .custom-img1 {
   position: relative;
   z-index: 1;
 }
+
 .adm_emag .section3 .custom-img2 {
   position: relative;
   margin-top: -40px;
 }
+
 .adm_emag .section4 {
   position: relative;
   margin-bottom: 30px;
 }
+
 .adm_emag .section4 .section-title {
   margin-bottom: 40px;
 }
+
 .adm_emag .section4 .section-title.title1 {
   margin-top: -50px;
 }
+
 .adm_emag .section4 p {
   font-size: 16px;
   padding: 0 15px;
   margin-bottom: 20px;
   color: #000000;
-}/*# sourceMappingURL=index.css.map */
+}
+
+.adm_emag .section5 {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.adm_emag .section5 p {
+  text-align: center;
+  font-size: 16px;
+  padding: 0 15px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.adm_emag .section5 .credit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto;
+}
+
+.adm_emag .section5 .credit p {
+  text-transform: uppercase;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33%;
+          flex: 0 0 33%;
+  max-width: 33%;
+  font-size: 13px;
+  padding: 0;
+}
+
+.adm_emag .section5 .credit p span {
+  display: block;
+  font-style: normal;
+  font-weight: normal;
+  color: #6A6662;
+  font-size: 9px;
+}
+/*# sourceMappingURL=index.css.map */
