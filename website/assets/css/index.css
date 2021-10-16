@@ -399,4 +399,9 @@
     font-size: 9px;
   }
 }
+
+.adm_emag .swiper .swiper-button-next,
+.adm_emag .swiper .swiper-button-prev {
+  color: #000000 !important;
+}
 /*# sourceMappingURL=index.css.map */
