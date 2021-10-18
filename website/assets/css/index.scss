@@ -226,7 +226,7 @@
                     }
 
                     &.slide15-text {
-                        bottom: 13%;
+                        bottom: 5%;
                         right: 6%;
                         width: 25%;
                     }
@@ -338,6 +338,7 @@
         .swiper-button-next,
         .swiper-button-prev {
             color: #000000 !important;
+            background: none !important;
         }
     }
 }

@@ -10,6 +10,10 @@ jQuery(document).ready(function ($) {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
         },
+        mousewheel: {
+            control: true,
+            invert: false,
+        },
         on: {
             init: function () {
                 var index = this.activeIndex;

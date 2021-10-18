@@ -279,7 +279,7 @@
 }
 
 .adm_emag .swiper .swiper-slide .slide-content .text-wrapper.slide15-text {
-  bottom: 13%;
+  bottom: 5%;
   right: 6%;
   width: 25%;
 }
@@ -403,5 +403,6 @@
 .adm_emag .swiper .swiper-button-next,
 .adm_emag .swiper .swiper-button-prev {
   color: #000000 !important;
+  background: none !important;
 }
 /*# sourceMappingURL=index.css.map */
